@@ -47,6 +47,9 @@ function defaultPassLength() {
 document.getElementById("submitInput").addEventListener("click", formValidation);
 
 function formValidation() {
+
+  event.preventDefault();
+
   passLength = document.getElementById('passLength').value;
 
   console.log(passLength);
