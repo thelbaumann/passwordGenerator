@@ -158,13 +158,12 @@ button[disabled] {
   width:75%;
   background-color:white;
   box-shadow: 2px 2px 2px black;
-  padding:5%;
+  padding:1em 1em 2em 1em;
   text-align:center;
 }
 
 input[type=checkbox] {
   margin-right: 1em;
-  margin-bottom:1em;
 }
 
 .checkboxGroup {
@@ -174,6 +173,7 @@ input[type=checkbox] {
 
 .checkboxGroup .checkboxSpan {
   display:flex;
+  margin-bottom:2%;
 }
 
 #passLength {
@@ -200,6 +200,9 @@ input[type=checkbox] {
 }
 
 @media (max-width: 690px) {
+
+/* ----- FONT STYLES ----*/
+
   .btn {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
@@ -208,6 +211,28 @@ input[type=checkbox] {
 
   #password {
     font-size: 1rem;
+  }
+
+  .checkboxGroup .checkboxSpan {
+    margin-bottom:5%;
+  }
+
+h3 {
+  margin-top:1.5em;
+}
+
+/* ----- FORM STYLES ----*/
+
+  #passLength {
+    display:block;
+    width:40%;
+    margin:0px auto;
+    padding:4%;
+    margin-top:1em;
+  }
+
+  #submitInput {
+    margin-top:3.5em;
   }
 }
 
