@@ -131,6 +131,11 @@ button[disabled] {
   text-align:center;
 }
 
+h3 {
+  margin-top:1.5em;
+}
+
+
 
 /*-----------------------------------*/
 /* ----- FORM STYLES/FUNCTION -------*/
@@ -185,6 +190,10 @@ input[type=checkbox] {
   margin-top:1em;
 }
 
+#submitInput {
+  margin-top:1.5em;
+}
+
 
 /*-----------------------------------*/
 /* --------- MEDIA QUERIES ----------*/
@@ -216,10 +225,6 @@ input[type=checkbox] {
   .checkboxGroup .checkboxSpan {
     margin-bottom:5%;
   }
-
-h3 {
-  margin-top:1.5em;
-}
 
 /* ----- FORM STYLES ----*/
 
